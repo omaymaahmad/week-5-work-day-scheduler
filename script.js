@@ -2,7 +2,7 @@ $(document).ready(function() {
 
 $('#currentDay').text(moment());
 
-$("#saveBtn").on("click", function() {
+$(".saveBtn").on("click", function() {
 
     var usersTask = $(this).siblings(".description").val();
     console.log(usersTask)
