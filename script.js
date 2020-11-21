@@ -19,7 +19,9 @@ $(document).ready(function () {
   var localStorage9am = localStorage.getItem("9");
   $("#9 .description").val(localStorage9am);
 
-
+ // Getting any stored tasks for 10am - 11am from local storage
+ var localStorage10am = localStorage.getItem("10");
+ $("#10 .description").val(localStorage10am);
 
   function checkPastPresentFuture(){
     $(".time-block").each(function(){
