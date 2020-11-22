@@ -9,6 +9,12 @@ $(document).ready(function () {
     localStorage.setItem(timeTaskScheduled, usersTask);
   });
 
+  // Reset Button
+  $(".resetBtn").on("click", function () {
+     
+    localStorage.clear();
+    usersTask = 0;
+  });
 
 
   // Getting any stored tasks for 8am - 9am from local storage
@@ -66,5 +72,4 @@ $(document).ready(function () {
     })
   }
 
-  checkPastPresentFuture();
-});
+  checkPastPresentFuture();})
