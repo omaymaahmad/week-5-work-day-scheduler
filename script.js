@@ -51,6 +51,7 @@ $(document).ready(function () {
  var localStorage5pm = localStorage.getItem("17");
  $("#17 .description").val(localStorage5pm);
 
+ // Changing background depending on time 
   function checkPastPresentFuture(){
     $(".time-block").each(function(){
         var hourForBlockBeingChecked = parseInt($(this).attr("id"));
