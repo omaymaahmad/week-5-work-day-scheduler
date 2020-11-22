@@ -23,6 +23,34 @@ $(document).ready(function () {
  var localStorage10am = localStorage.getItem("10");
  $("#10 .description").val(localStorage10am);
 
+ // Getting any stored tasks for 11am - 12pm from local storage
+ var localStorage11am = localStorage.getItem("11");
+ $("#11 .description").val(localStorage11am);
+
+ // Getting any stored tasks for 12pm - 1pm from local storage
+ var localStorage12pm = localStorage.getItem("12");
+ $("#12 .description").val(localStorage12pm);
+
+ // Getting any stored tasks for 1pm - 2pm from local storage
+ var localStorage1pm = localStorage.getItem("13");
+ $("#13 .description").val(localStorage1pm);
+
+ // Getting any stored tasks for 2pm - 3pm from local storage
+ var localStorage2pm = localStorage.getItem("14");
+ $("#14 .description").val(localStorage2pm);
+
+ // Getting any stored tasks for 3pm - 4pm from local storage
+ var localStorage3pm = localStorage.getItem("15");
+ $("#15 .description").val(localStorage3pm);
+
+ // Getting any stored tasks for 4pm - 5pm from local storage
+ var localStorage4pm = localStorage.getItem("16");
+ $("#16 .description").val(localStorage4pm);
+
+ // Getting any stored tasks for 5pm - 6pm from local storage
+ var localStorage5pm = localStorage.getItem("17");
+ $("#17 .description").val(localStorage5pm);
+
   function checkPastPresentFuture(){
     $(".time-block").each(function(){
         var hourForBlockBeingChecked = parseInt($(this).attr("id"));
