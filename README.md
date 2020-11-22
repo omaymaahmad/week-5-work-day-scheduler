@@ -1,5 +1,15 @@
 # 05 Third-Party APIs: Work Day Scheduler
 
+* deployed URL: https://omaymaahmad.github.io/week-5-work-day-scheduler/
+
+* see Assets folder for a screenshot of live site
+
+* function created to display current day, date and time using moment.js
+* time blocks created for standard business hours
+* creatd function to change the colour of time blocks to indicate past, present or future tense
+* tasks saved into local storage 
+* reset button that clears the tasks when the screen is refreshed
+
 ## Your Task
 
 Create a simple calendar application that allows a user to save events for each hour of the day by modifying starter code. This app will run in the browser and feature dynamically updated HTML and CSS powered by jQuery.
